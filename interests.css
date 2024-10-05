@@ -1,0 +1,39 @@
+header {
+    background-color: #4a90e2; 
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}

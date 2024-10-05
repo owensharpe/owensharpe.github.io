@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+.headers {
+    text-decoration: underline;
+    text-decoration-color: brown;
+    font-family: 'Times New Roman';
+}
+
+.information {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 5px; 
+}
+
+.main-info {
+    text-align: left;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.info-container {
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.paragraphs {
+    background-color:rgba(245, 245, 245, 0.5);
+    font-family: 'Calibri';
+}
+
+.about-me {
+    background-color: wheat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.buttons {
+    border: 5px solid whitesmoke;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

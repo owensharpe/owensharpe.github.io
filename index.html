@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: lightblue;">
+    <h1>Welcome to Owen Sharpe's Personal Website!</h1>
+
+    <div class="info-container">
+        <div class="information">
+            <section class="main-info">
+                <h3 class="headers"> My Contact Information</h3>
+                <p class="paragraphs">Phone: 339-236-4740</a></p>
+                <p class="paragraphs">Email: <a href="mailto:sharpe.o@northeastern.edu">sharpe.o@northeastern.edu</a></p>
+                <p class="paragraphs">My Github: <a href="https://github.com/owensharpe">Github</a></p>
+                <p class="paragraphs">My LinkedIn: <a href="https://www.linkedin.com/in/owen-sharpe-92258b260/">LinkedIn</a></p>
+            </section>
+            <section class="main-info">
+                <h3 class="headers">Quick Read</h3>
+                <p class="paragraphs">Year: Sophomore</p>
+                <p class="paragraphs">Major: Data Science and Mathematics</p>
+                <p class="paragraphs">GPA: 4.0</p>
+                <p class="paragraphs">Programming Languages: Python, Java, C++</p>
+            </section>
+            <section class="main-info">
+                <h3 class="headers">My Goals</h3>
+                <p class="paragraphs">Future Professions: Machine Learning Engineer, Quantitative Analyst</p>
+                <p class="paragraphs">Future Skills: Cloud Computing, Web Development, Neural Networks</p>
+                <p class="paragraphs">Future Salary: Anywhere above $250,000 base salary</p>
+                <p class="paragraphs">Future Home: I'd like to live in Seattle or Boston</p>
+            </section>
+        </div>
+
+        <section class="about-me">
+            <h3 class="headers">About Me</h3>
+            <p class="paragraphs">I am a sophomore pursuing a Bachelor of Science in Data Science and Mathematics. 
+                I plan to acquire a Master's in AI or Quantitative Finance through Northeastern's PlusOne program. 
+                I'm a passionate data science and machine learning enthusiast, deeply interested in predictive modeling, statistical analysis, and data visualization. 
+                Since I was a child, I've had a natural affinity for sports analytics, which has developed my commitment to mastering applied mathematics and data science, where I hope to work in machine learning and quantitative finance in the future. 
+                I've pursued projects showcasing my analytical skills, including predicting NBA awards using machine learning and performing sentiment analysis on large Spotify datasets. 
+                I'm also actively involved in a web development project to build a schedule evaluator for Northeastern students. 
+                I'm driven by a desire to uncover insights from data and contribute to impactful projects across diverse fields. 
+                Growing up in Hingham, Massachusetts, I have always felt a deep connection to the rich culture and vibrant atmosphere of the Boston area. 
+                My entire life has been shaped by the experiences and opportunities this region offers, from exploring the historic streets of Boston to enjoying the natural beauty of the coastal towns nearby. 
+                As I transitioned into my academic career, attending Northeastern University became a dream come true.
+            </p>
+            <img src="DSC02681.JPG" alt="Me" style="width:300px;height:200px;">
+            <img src="IMG_6838.jpg" alt="Younger Me" style="width:300px;height:200px;">
+            <img src="image000000.JPG" alt="Me at Prom" style="width:300px;height:200px;">
+
+        </section>
+    </div>
+
+    <div>
+        <button class="buttons" id="navigateButton">My Interests in More Detail</button>
+    </div>
+    
+    <script>
+        const navigateButton = document.getElementById("navigateButton")
+        navigateButton.addEventListener('click', function(){
+            window.location.href="detailed_interests.html";
+        })
+    </script>
+    
+</body>
+</html>
